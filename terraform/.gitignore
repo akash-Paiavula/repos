@@ -1,0 +1,64 @@
+# ===============================
+# Terraform files
+# ===============================
+
+# Local .terraform directory
+.terraform/
+
+# Terraform state files (VERY IMPORTANT - never commit)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# ===============================
+# AWS / Credentials
+# ===============================
+
+# AWS credentials (if accidentally added)
+*.pem
+*.key
+
+# ===============================
+# OS / Editor files
+# ===============================
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Kubernetes config (optional safety)
+# ===============================
+kubeconfig
